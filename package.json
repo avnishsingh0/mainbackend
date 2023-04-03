@@ -2,10 +2,10 @@
   "name": "pppp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"nodemon backend/server.js",
+    "server":"nodemon server.js",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d"
   },
